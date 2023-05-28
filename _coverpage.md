@@ -1,14 +1,14 @@
 <!-- _coverpage.md -->
 
-![logo](icon.svg)
+![logo](Ticon.png)
 
-# docsify <small>4.12.1</small>
+# 基于腾讯工蜂平台的开源协作开发课程
 
-> A magical documentation site generator.
+> 腾讯公司-教育部产学合作协同育人项目
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- 助力产品研发 
+- 打造卓越品质
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#headline)
+
+[腾讯工蜂](https://git.code.tencent.com/)
+[腾讯开源](https://opensource.tencent.com/)
