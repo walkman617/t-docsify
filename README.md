@@ -1,8 +1,18 @@
+# 腾讯工蜂
+
+![logo](TGit.svg)
+
+- [腾讯工蜂](https://code.tencent.com/) 是基于Git的企业级协作开发解决方案，实现敏捷研发和持续交付。
+
+
+
 # Apache InLong
 
 ![logo](Apache_InLong.png)
 
 - [Apache InLong（应龙）](https://inlong.apache.org/) 是一个一站式海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，同时支持批和流，方便业务构建基于流式的数据分析、建模和应用。
+
+- [InLong 应用案例](https://t.nkugame.com/#/InLong_Case1)
 
 
 # Angel
