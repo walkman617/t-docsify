@@ -1,5 +1,5 @@
 # Apache InLong
-![logo](InLong_logo.svg)
+![logo](Apache_InLong.png)
 - [Apache InLong（应龙）](https://inlong.apache.org/) 是一个一站式海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，同时支持批和流，方便业务构建基于流式的数据分析、建模和应用。
 
 

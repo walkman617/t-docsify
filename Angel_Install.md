@@ -1,10 +1,5 @@
-# 密码
 
-43.138.74.63 jhWs2086ss
-
-
-
-# 安装
+# 安装参考
 
 https://github.com/YeHuanjie/start-on-Angel
 
