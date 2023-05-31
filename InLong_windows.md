@@ -1,15 +1,16 @@
 
-# 准备工作——Docker
+# 在 Windows 环境下安装 InLong
+
+## 安装 Docker 及相关组件
 
 ### 安装地址
 
-- 前往docker安装地址https://docs.docker.com/engine/install/，选择对应的操作系统下载安装程序，安装
-
+- 前往 docker 下载地址：https://docs.docker.com/engine/install/
+- 选择对应的操作系统，下载安装程序
 ![](/Windows/docker_install.png)
 
 ### 可能存在的问题
 -   在确认Hyper-V功能与CPU虚拟化均已开启的情况下，Docker启动时仍报错，信息如下
-
 
   `Check that hardware-assisted virtualization (either Intel VMX or AMD SVM) and Data Execution Prevention (sometimes labeled XD or Execute Disable or NX) are enabled in your BIOS.`
 
@@ -25,13 +26,13 @@
   bcdedit /set hypervisorlaunchtype Auto
   ```
 
-  并重启电脑 
+  然后，重启电脑 
 
 
 
-# 准备工作——Flink
+## 安装 Flink 及相关组件
 
-### 下载&解压
+### 下载和解压
 1. 下载压缩包
 `https://www.apache.org/dyn/closer.lua/flink/flink-1.15.2/flink-1.15.2-bin-scala_2.12.tgz`
 2. 前往下载路径解压
@@ -55,7 +56,7 @@ tar -xzf flink-1.15.2-bin-scala_2.12.tgz
 ![](/Windows/flink-conf.yaml.png)
 - 关于文件修改的具体内容可以参考链接https://blog.csdn.net/guandongsheng110/article/details/118578189
 
-### 启动
+### 启动服务
 
 - 双击start-cluster.bat文件，期望结果会有两个执行框
 
@@ -81,9 +82,7 @@ tar -xzf flink-1.15.2-bin-scala_2.12.tgz
   
 
 
-
-
-# 在Windows上部署InLong
+## 在 Windows 上部署 InLong
 
 ### 操作步骤（仅供参考）
 

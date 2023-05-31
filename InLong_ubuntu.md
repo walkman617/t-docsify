@@ -1,8 +1,8 @@
+# 在 Ubuntu 环境下安装InLong
 
+## 安装 Docker 及相关组件
 
-# 准备工作——Docker
-
-### Docker 安装
+### 安装 Docker
 
 1. 卸载旧版本Docker库
 ```
@@ -38,7 +38,7 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/l
 ```
    ![](Ubuntu/Docker/apt-res.png)
 
-### Docker-Engine 安装
+### 安装 Docker-Engine 
 1. 更新 apt 包索引
 ```
 sudo apt-get update
@@ -55,7 +55,7 @@ sudo docker run hello-world
 ```
    ![](Ubuntu/Docker/test.png)
 
-### Docker-Compose 安装
+### 安装 Docker-Compose 
 1. 切换至root用户
 ```
 sudo -i
@@ -82,15 +82,17 @@ docker-compose -v
 
 `https://blog.csdn.net/u012590718/article/details/125702606`
 
-# Flink
 
-### JDK安装（以JDK8为例）
+
+## 安装 Flink 及相关组件
+
+### 安装 JDK（以JDK8为例）
 
 ```
 sudo apt install openjdk-8-jdk
 ```
 
-### Flink安装
+### 安装 Flink
 1. 下载压缩包
 `https://www.apache.org/dyn/closer.lua/flink/flink-1.15.2/flink-1.15.2-bin-scala_2.12.tgz`
 2. 前往下载路径解压&进入Flink根目录
@@ -112,9 +114,11 @@ cd flink-1.15.2-bin-scala_2.12
 ### 参考链接
 `https://nightlies.apache.org/flink/flink-docs-release-1.13/docs/try-flink/local_installation/`
 
-# InLong
 
-### 操作步骤
+
+## 安装 InLong 及相关组件
+
+### 安装步骤
 
 1. 下载&解压
 
