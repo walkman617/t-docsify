@@ -15,10 +15,13 @@
 - [在 Ubuntu 环境下安装 InLong ](https://t.nkugame.com/#/InLong_ubuntu)
 - [在 Windows 环境下安装 InLong ](https://t.nkugame.com/#/InLong_windows)
 
-## 应用案例
-- [案例：在线演示](http://43.138.53.164)：用户名 admin，密码 inlong
-- [案例：安装与配置手册](http://43.138.53.164:8025)
-- [案例：安装与配置手册](https://t.nkugame.com/#/InLong_Case1)
+## 应用案例展示
+- [案例1：把csv文件内容采集到消息队列（pulsar）中]
+    - [在线演示](http://43.138.53.164)：用户名 admin，密码 inlong
+    - [安装与配置手册](https://t.nkugame.com/#/InLong_Case1)：http://43.138.53.164:8025
+
+- [案例2：把csv文件内容采集到数据库（mysql）中](https://t.nkugame.com/#/InLong_Case2)
+
 
 
 # Angel
