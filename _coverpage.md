@@ -8,6 +8,6 @@
 
 - 南开大学  软件学院
 
+[课程资源](#腾讯工蜂)
 [腾讯工蜂](https://git.code.tencent.com/)
 [腾讯开源](https://opensource.tencent.com/)
-[课程资源](https://t.nkugame.com/#/?id=%e8%85%be%e8%ae%af%e5%b7%a5%e8%9c%82)
