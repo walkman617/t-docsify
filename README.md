@@ -16,11 +16,13 @@
 - [在 Windows 环境下安装 InLong ](https://t.nkugame.com/#/InLong_windows)
 
 ## 应用案例展示
-- [案例1：把csv文件内容采集到消息队列（pulsar）中]
-    - [在线演示](http://43.138.53.164)：用户名 admin，密码 inlong
-    - [安装与配置手册](https://t.nkugame.com/#/InLong_Case1)：http://43.138.53.164:8025
+- **案例1：把csv文件内容采集到消息队列（pulsar）中**
+    - 在线演示：[演示地址](http://43.138.53.164) （登陆用户名 admin，密码 inlong）
+    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case1)
+    - 安装与配置：[在线手册](http://43.138.53.164:8025)
 
-- [案例2：把csv文件内容采集到数据库（mysql）中](https://t.nkugame.com/#/InLong_Case2)
+- **案例2：把csv文件内容采集到数据库（mysql）中**
+    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case2)
 
 
 
@@ -31,3 +33,6 @@
 
 ## 安装与配置
 - [安装与配置步骤](https://t.nkugame.com/#/Angel_Install)
+
+## 应用案例展示
+- [2023 毕业设计案例展示](http://8.130.113.37:8080/)
