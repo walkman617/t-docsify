@@ -19,7 +19,6 @@
 - **案例1：把csv文件内容采集到消息队列（pulsar）中**
     - 在线演示：[演示地址](http://43.138.53.164) （登陆用户名 admin，密码 inlong）
     - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case1)
-    - 安装与配置：[在线手册](http://43.138.53.164:8025)
 
 - **案例2：把csv文件内容采集到数据库（mysql）中**
     - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case2)
