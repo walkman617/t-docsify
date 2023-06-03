@@ -1,15 +1,25 @@
-# InLong 应用案例
+# InLong项目实践：个贷违约预测
+
+本项目为基于Apache InLong的项目实践，使用了InLong的自主消费模式。
+
+本项目的实践内容包括数据收集与数据传输。
+
+
 
 ## 简介
-#### Apache InLong
 
-- Apache InLong（应龙，https://inlong.apache.org/）是一站式的海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，方便业务构建基于流式的数据分析、建模和应用。 InLong 项目原名 TubeMQ ，专注于高性能、低成本的消息队列服务。为了进一步释放 TubeMQ 周边的生态能力，我们将项目升级为InLong，专注打造一站式海量数据集成框架。 Apache InLong 依托 10 万亿级别的数据接入和处理能力，整合了数据采集、汇聚、存储、分拣数据处理全流程，拥有简单易用、灵活扩展、稳定可靠等特性。 
+本节将对**Apache InLong**与**Personal Loan Default Forecast**（个贷违约检测）进行简单的介绍。
+
+
+
+### Apache InLong
+
+- [Apache InLong](https://inlong.apache.org)是一站式的海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，方便业务构建基于流式的数据分析、建模和应用。 InLong 项目原名 TubeMQ ，专注于高性能、低成本的消息队列服务。为了进一步释放 TubeMQ 周边的生态能力，我们将项目升级为InLong，专注打造一站式海量数据集成框架。 Apache InLong 依托 10 万亿级别的数据接入和处理能力，整合了数据采集、汇聚、存储、分拣数据处理全流程，拥有简单易用、灵活扩展、稳定可靠等特性。 
 - 该项目最初于 2019 年 11 月由腾讯大数据团队捐献到 Apache 孵化器，2022 年 6 月正式毕业成为 Apache 顶级项目。目前 InLong 正广泛应用于广告、支付、社交、游戏、人工智能等各个行业领域，为多领域客户提供高效化便捷化服务。
-  
 
 
 
-#### Personal Loan Default Forecast
+### Personal Loan Default Forecast
 
 - 问题提出
   - 为进一步促进金融普惠的推广落地，金融机构需要服务许多新的客群。银行作为对风险控制要求很高的行业，因为缺乏对新客群的了解，对新的细分客群的风控处理往往成为金融普惠的重要阻碍。如何利用银行现有信贷行为数据来服务新场景、新客群成了一个很有价值的研究方向，迁移学习是其中一个重要手段。其中金融惠普是指国家为特殊群体所提供的一种福利金融服务，那自然而然需要考察服务对象之前的信誉水平和当前的经济水平。
@@ -20,22 +30,14 @@
 
 
 
-#### 演示案例（DEMO）
+## InLong安装与部署
 
-我们将使用InLong的自主消费模式进行数据传输，之后结合机器学习的相关代码完成此次DEMO的运行。
-
-- 数据传输
-
-  将个贷违约预测问题所需的三个数据集通过InLong分别发往数据队列pulsar的不同topic中，之后从pulsar中取出数据并以文件形式存储。
-
-- 数据处理
-
-  将获取到的数据集进行数据预处理，并用训练集训练神经网络，最后使用测试集得到预测结果。
+本节将描述InLong及其相关软件的安装与部署流程。
 
 
 
 
-## 环境
+### 环境
 
 ```
 Ubuntu 20.04.6 LTS
@@ -78,7 +80,7 @@ curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key 
 5. 验证
 
 ```
-sudo apt install openjdk-8-jdk
+sudo apt-key fingerprint 0EBFCD88
 ```
 
    ![](imgs/apt-key-v.png)
@@ -93,7 +95,7 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/l
 
 
 
-##### Docker-Engine 安装
+#### Docker-Engine 安装
 
 1. 更新 apt 包索引
 
@@ -119,7 +121,7 @@ sudo docker run hello-world
 
 
 
-##### Docker-Compose 安装
+#### Docker-Compose 安装
 
 1. 切换至root用户
 
@@ -205,6 +207,14 @@ admin@inlong   ![](imgs/web-login.png)
 
 
 
+## InLong项目实例：个贷违约检测
+
+本节将介绍使用InLong进行实践的具体流程。
+
+我们将使用InLong的自主消费模式进行数据传输，将个贷违约预测问题所需的三个数据集通过InLong分别发往数据队列pulsar的不同topic中，之后从pulsar中取出数据并以文件形式存储。
+
+
+
 ### InLong使用
 
 #### 新建集群标签
@@ -264,7 +274,11 @@ admin@inlong   ![](imgs/web-login.png)
 
 ```
 分别输入数据源名称，选择类型、集群名称、数据源IP，输入文件路径，完成数据来源的创建。
-注：数据源IP为 docker-agent 容器的IP，其下的 /data/collect-data/ 路径已与终端所在路径（运行 docker-compose up -d 时的路径）下的 /collect-data/ 路径挂载。即此时填写的 /data/collect-data/train_public.csv 对应的文件为 apache-inlong-1.6.0/docker/docker-compose/collect-data/train_public.csv。
+注：
+	数据源IP为 docker-agent 容器的IP，其下的
+    /data/collect-data/ 路径
+	已与终端所在路径（运行 docker-compose up -d 时的路径）下的
+    /collect-data/ 路径挂载。
 ```
 
 ![](imgs/0422-1.png)
@@ -344,6 +358,15 @@ https://github.com/wang273257881/inlong-pulsar-demo.git
 
 
 
+#### Python依赖安装
+
+
+   ```
+cd inlong-pulsar-demo
+pip install -r requirements.txt
+   ```
+
+
 #### Pulsar状态确定
 
 1. 在root终端下，输入
@@ -377,7 +400,8 @@ https://github.com/wang273257881/inlong-pulsar-demo.git
 1. 查看topic信息
 
    ```
-   [数据订阅]->[选择一消费组]->[详情]，记录Topic名称与消费组名称
+   [数据订阅]->[选择一消费组]->[详情]，记录Topic名称与消费组名称。
+   注：在新建的三个数据订阅中选择其一即可。
    ```
 
    ![pulsar3](imgs/pulsar3.png)
@@ -389,34 +413,24 @@ https://github.com/wang273257881/inlong-pulsar-demo.git
    注：若与本示例保持一致，则无需修改。
    ```
 
-   ![image-20230422230245093](imgs/image-20230422230245093.png)
+   ![image-20230523184129384](imgs/image-20230523184129384.png)
    
 3. 运行 inlong-pulsar-demo/consumer.py![code1](imgs/code1.png)
 
-4. 将 inlong-pulsar-demo 的与数据流组对应的csv文件放至 collect-data 路径下
+4. 将 inlong-pulsar-demo 的**与数据流组对应的**csv文件放至 collect-data 路径下
 
    ```
-   cp /path/to/inlong-pulsar-demo/data/train_internet.csv /path/to/apache-inlong-1.6.0/docker/docker-compose/collect-data/train_internet.csv
+   例：cp /path/to/inlong-pulsar-demo/data/train_internet.csv /path/to/apache-inlong-1.6.0/docker/docker-compose/collect-data/train_internet.csv
    ```
    
 5. 观察运行状态，直至消息不再跳动
 
    ![code3](imgs/code3.png)
 
-6. 停止运行，此时路径下应有相应文件
+6. 停止运行，此时路径下应有相应文件，且在InLong中的相应数据流组的审计对账界面可以看到相关的数据传输曲线。
+
+   ![image-20230601213525549](imgs/image-20230601213525549.png)
+
+   ![image-20230531192012250](imgs/image-20230531192012250.png)
+
 7. 按照不同数据流组对应的数据订阅、文件，修改参数并重复第2-6步，共3次。
-
-
-
-## Machine Learning - Neural Network
-
-1. 查看并修改 inlong-pulsar-demo/Data_Processing.py
-
-   ```
-   将文件路径改为 /path/to/apache-inlong-1.6.0/docker/docker-compose/collect-data/ 路径下的相应文件路径
-   ```
-
-   ![](imgs/0422-2.png)
-
-2. 运行 inlong-pulsar-demo/Data_Processing.py
-3. 运行 inlong-pulsar-demo/Neural_Network.py，得到submission.csv
