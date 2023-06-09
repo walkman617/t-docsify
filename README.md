@@ -23,6 +23,8 @@
 - **案例2：把csv文件内容采集到数据库（mysql）中**
     - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case2)
 
+- **案例3：创建文件到 ClickHouse 数据流**
+    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case3)
 
 
 # Angel
