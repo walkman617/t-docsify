@@ -1,34 +1,21 @@
 
 
-## 简介
+## 使用 Apache InLong 把csv文件内容采集到消息队列（pulsar）中
 
 本项目为基于Apache InLong的项目实践，使用了InLong的自主消费模式。
 
-本项目的实践内容包括数据收集与数据传输：将某个机器学习问题所需的三个数据集（csv文件）通过InLong分别发往数据队列pulsar的不同topic中，之后从pulsar中取出数据并以文件形式存储。
+实践内容包括数据收集与数据传输：将三个数据集（csv文件）通过InLong分别发往数据队列pulsar的不同topic中，之后从pulsar中取出数据并以文件形式存储。
 
 
-### Apache InLong
 
-- [Apache InLong](https://inlong.apache.org)是一站式的海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，方便业务构建基于流式的数据分析、建模和应用。 InLong 项目原名 TubeMQ ，专注于高性能、低成本的消息队列服务。为了进一步释放 TubeMQ 周边的生态能力，我们将项目升级为InLong，专注打造一站式海量数据集成框架。 Apache InLong 依托 10 万亿级别的数据接入和处理能力，整合了数据采集、汇聚、存储、分拣数据处理全流程，拥有简单易用、灵活扩展、稳定可靠等特性。 
-- 该项目最初于 2019 年 11 月由腾讯大数据团队捐献到 Apache 孵化器，2022 年 6 月正式毕业成为 Apache 顶级项目。目前 InLong 正广泛应用于广告、支付、社交、游戏、人工智能等各个行业领域，为多领域客户提供高效化便捷化服务。
-
-
-## InLong安装与部署
-
-本节将描述InLong及其相关软件的安装与部署流程。
-
-
-### 环境
+### 安装环境
 
 ```
 Ubuntu 20.04.6 LTS
 ```
 
 
-
-### Docker
-
-#### Docker 安装
+#### 安装 Docker 
 
 1. 卸载旧版本Docker库
 
@@ -76,7 +63,7 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/l
 
 
 
-#### Docker-Engine 安装
+#### 安装 Docker-Engine 
 
 1. 更新 apt 包索引
 
@@ -102,7 +89,7 @@ sudo docker run hello-world
 
 
 
-#### Docker-Compose 安装
+#### 安装 Docker-Compose
 
 1. 切换至root用户
 
@@ -142,7 +129,7 @@ docker-compose -v
 
 
 
-### InLong 部署
+### InLong 安装与部署
 
 #### 操作步骤
 
@@ -174,11 +161,10 @@ docker-compose -v
 
 `localhost`
 
-admin@inlong   ![](imgs/web-login.png)
+用户名/密码：admin/inlong   
+   ![](imgs/web-login.png)
 
    ![](imgs/web.png)
-
-注：若进入Inlong后未显示登录界面，而是直接跳转至首页且右上角无用户名，同时有http error弹出，稍作等待刷新即可。
 
 
 
@@ -203,7 +189,7 @@ admin@inlong   ![](imgs/web-login.png)
 
 
 
-#### 注册Pulsar集群
+#### 注册 Pulsar 集群
 
 ```
 [集群管理]->[集群管理]->[新建集群]，注册 Pulsar 集群
@@ -318,9 +304,9 @@ admin@inlong   ![](imgs/web-login.png)
 
 
 
-### Pulsar使用
+### Pulsar 使用
 
-#### JDK安装（以JDK8为例）
+#### 安装 JDK（以JDK8为例）
 
 ```
 sudo apt install openjdk-8-jdk
@@ -332,21 +318,22 @@ sudo apt install openjdk-8-jdk
 
 ```
 https://github.com/wang273257881/inlong-pulsar-demo.git
+
 拉至本地后解压data.zip文件
 ```
 
 
 
-#### Python依赖安装
+#### 安装 Python 依赖
 
 
-   ```
+```
 cd inlong-pulsar-demo
 pip install -r requirements.txt
-   ```
+```
 
 
-#### Pulsar状态确定
+#### Pulsar 状态确定
 
 1. 在root终端下，输入
 
@@ -370,7 +357,7 @@ pip install -r requirements.txt
 
 
 
-#### Pulsar消费
+#### Pulsar 消费
 
 1. 查看topic信息
 
