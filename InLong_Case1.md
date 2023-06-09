@@ -208,7 +208,7 @@ Password: inlong
 
 #### 新建数据流组
 
-1. 使用用户名密码（admin@inlong）登录至Inlong数据集成主界面
+1. 使用用户名/密码（admin/inlong）登录至 Inlong 数据集成主界面
 
    ![](imgs/Inlong0.png)
 
@@ -218,7 +218,7 @@ Password: inlong
 ```
 分别输入数据流组ID，责任人。
 
-选择MQ(消息队列)类型，示例中我们选择Pulsar
+选择 MQ(消息队列)类型，示例中我们选择Pulsar
 ```
 
    ![](imgs/Inlong1.png)
@@ -251,6 +251,11 @@ Password: inlong
 
 
 例如：本实例中选择了某个机器学习问题所需的三个数据集（csv文件）作为数据源。
+
+打开链接：https://github.com/wang273257881/inlong-pulsar-demo.git
+
+拉至本地后解压data.zip文件，可以看到本实验用到的三个csv文件。
+
 ```
 
 ![](imgs/0422-1.png)
@@ -321,48 +326,16 @@ sudo apt install openjdk-8-jdk
 
 
 
-#### 文件资源获取
-
-```
-https://github.com/wang273257881/inlong-pulsar-demo.git
-
-拉至本地后解压data.zip文件，可以看到本实验用到的三个csv文件。
-```
-
-
-
 #### 安装 Python 依赖
 
+打开链接：https://github.com/wang273257881/inlong-pulsar-demo.git
+
+拉至本地后运行：
 
 ```
 cd inlong-pulsar-demo
 pip install -r requirements.txt
 ```
-
-
-#### Pulsar 状态确定
-
-1. 在root终端下，输入
-
-   ```
-   docker ps -a
-   ```
-
-   确定apachepulsar容器处于启动状态
-
-   ![pulsar1](imgs/pulsar1.png)
-
-2. 在终端输入
-
-   ```
-   curl 数据流组ID/数据流ID | python3 -m json.tool
-   ```
-
-   确定有JSON格式的数据输出
-
-   ![pulsar2](imgs/pulsar2.png)
-
-
 
 #### Pulsar 消费
 
