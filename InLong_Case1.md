@@ -319,7 +319,7 @@ sudo apt install openjdk-8-jdk
 ```
 https://github.com/wang273257881/inlong-pulsar-demo.git
 
-拉至本地后解压data.zip文件
+拉至本地后解压data.zip文件，可以看到本实验用到的三个csv文件。
 ```
 
 
