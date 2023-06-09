@@ -41,7 +41,9 @@ docker-compose up -d
 
 ### 集群初始化
 
-容器启动成功后，访问 InLong Dashboard 地址 http://localhost，并使用以下默认账号登录：
+容器启动成功后，访问 InLong Dashboard 地址 http://localhost ，
+
+并使用以下默认账号登录：
 
 ```
 User: admin

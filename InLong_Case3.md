@@ -29,7 +29,8 @@ docker run -d --rm --net=host --name clickhouse -e CLICKHOUSE_USER=admin -e CLIC
 ```
 
 ### 集群初始化
-当所有容器都成功启动后，可以访问 InLong Dashboard 地址 http://localhost，
+当所有容器都成功启动后，可以访问 InLong Dashboard 地址 http://localhost ，
+
 并使用以下默认账号登录:
 
 ```
@@ -122,8 +123,10 @@ for i in {0..10000};do echo "name_$i | $i" >> /data/collect-data/test.log ;done
 
 ### 常见问题
 - Docker Compose 启动出现“specify container image platform”
+
 API 不兼容导致，可以删除 docker-compose.yml 中的 platform: "linux/x86_64"，执行。
 
 - 数据流配置错误
+
 一般是 MQ 或者 Flink 集群配置错误导致，可以在页面查看错误信息，或者进入 Manager 容器查看详细日志。
 
