@@ -137,7 +137,7 @@ docker-compose -v
 
     `https://downloads.apache.org/inlong/1.6.0/apache-inlong-1.6.0-bin.tar.gz`
 
-2. 开启Docker
+2. 启动 Docker 
 
    ```
    service docker start
@@ -157,11 +157,18 @@ docker-compose -v
 
    ![image-20230422213619795](imgs/image-20230422213619795.png)
 
-5. 使用
+5. 访问 InLong Dashboard
 
-`localhost`
+地址： http://localhost ，
 
-用户名/密码：admin/inlong   
+并使用以下默认账号登录:
+
+```
+User: admin
+Password: inlong
+```
+
+
    ![](imgs/web-login.png)
 
    ![](imgs/web.png)
