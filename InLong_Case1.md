@@ -247,7 +247,7 @@ Password: inlong
 
 数据源IP：与集群管理中agent节点的ip保持一致。
 
-文件路径：在linux中的agent容器中/data/collect-data下存放。
+文件路径：在agent容器中的 /data/collect-data 目录下存放。
 
 
 例如：本实例中选择了某个机器学习问题所需的三个数据集（csv文件）作为数据源。
@@ -388,7 +388,7 @@ pip install -r requirements.txt
    
 3. 运行 inlong-pulsar-demo/consumer.py![code1](imgs/code1.png)
 
-4. 将 inlong-pulsar-demo 的**与数据流组对应的**csv文件放至 collect-data 路径下
+4. 将三个csv文件拷贝到 collect-data 路径下
 
    ```
    例：cp /path/to/inlong-pulsar-demo/data/train_internet.csv /path/to/apache-inlong-1.6.0/docker/docker-compose/collect-data/train_internet.csv
