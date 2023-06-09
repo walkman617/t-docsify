@@ -61,7 +61,7 @@ ip、用户名、密码为自己服务器的内容，根据服务器更改。
 
 ![image-20230524144729660](./res/7.png)
 
-数据源ip：与集群管理中agent节点的ip保持一致。
+数据源IP：与集群管理中agent节点的IP保持一致。
 
 文件路径：在linux中的agent容器中/data/collect-data下存放。
 

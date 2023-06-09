@@ -252,6 +252,11 @@ admin@inlong   ![](imgs/web-login.png)
 ```
 分别输入数据源名称，选择类型、集群名称、数据源IP，输入文件路径，完成数据来源的创建。
 
+数据源IP：与集群管理中agent节点的ip保持一致。
+
+文件路径：在linux中的agent容器中/data/collect-data下存放。
+
+
 例如：本实例中选择了某个机器学习问题所需的三个数据集（csv文件）作为数据源。
 ```
 
