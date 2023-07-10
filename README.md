@@ -4,7 +4,9 @@
 
 - [腾讯工蜂](https://code.tencent.com/) 是基于Git的企业级协作开发解决方案，实现敏捷研发和持续交付。
 
-
+## 使用文档
+- [课程文档](https://docs.qq.com/slide/DYnBjamNESVpreWp6)
+- [在线文档](https://code.tencent.com/help)
 
 # Apache InLong
 
