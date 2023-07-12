@@ -8,16 +8,20 @@
 - [课程文档](https://docs.qq.com/slide/DYnBjamNESVpreWp6)
 - [在线文档](https://code.tencent.com/help)
 
-# Apache InLong
+# 腾讯开源
+- [腾讯开源官网](https://opensource.tencent.com/)
+- [腾讯犀牛鸟开源人才培养计划](https://opensource.tencent.com/summer-of-code)
+
+## Apache InLong
 
 ![logo](Apache_InLong.png)
 - [Apache InLong（应龙）](https://inlong.apache.org/) 是一个一站式海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，同时支持批和流，方便业务构建基于流式的数据分析、建模和应用。
 
-## 安装与配置
+### 安装与配置
 - [在 Ubuntu 环境下安装 InLong ](https://t.nkugame.com/#/InLong_ubuntu)
 - [在 Windows 环境下安装 InLong ](https://t.nkugame.com/#/InLong_windows)
 
-## 应用案例展示
+### 应用案例展示
 - **案例1：把csv文件内容采集到消息队列（pulsar）中**
     - 在线演示：[演示地址](http://43.138.53.164) （登陆用户名 admin，密码 inlong）
     - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case1)
@@ -32,13 +36,13 @@
     - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case4)
 
 
-# Angel
+## Angel
 
 ![logo](angel_logo.png) 
 - [Angel](https://github.com/Angel-ML/angel) 是一个基于参数服务器（Parameter Server）理念开发的高性能分布式机器学习和图计算平台，它基于腾讯内部的海量数据进行了反复的调优，并具有广泛的适用性和稳定性，模型维度越高，优势越明显。
 
-## 安装与配置
+### 安装与配置
 - [安装与配置步骤](https://t.nkugame.com/#/Angel_Install)
 
-## 应用案例展示
+### 应用案例展示
 - [2023 毕业设计案例展示](http://8.130.113.37:8080/)
