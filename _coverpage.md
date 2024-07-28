@@ -1,7 +1,5 @@
 <!-- _coverpage.md -->
 
-![logo](cloud-computing.jpg)
-
 # 《云计算》课程
 
 > 2024年7月-8月
