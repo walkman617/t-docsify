@@ -2,8 +2,9 @@
 
 # 《云计算》课程
 
-![logo](cloud-computing.jpg)
+![logo](cloud-computing.png)
 
+> 南开大学
 > 2024年7月-8月
 
 
