@@ -1,13 +1,12 @@
 <!-- _coverpage.md -->
 
-![logo](Ticon.png)
+![logo](cloud-computing.jpg)
 
-# 基于腾讯工蜂平台的开源协作开发课程
+# 《云计算》课程
 
-> 教育部产学合作协同育人项目
+> 2024年7月-8月
 
-- 南开大学  软件学院
 
-[腾讯工蜂](https://code.tencent.com/)
-[腾讯开源](https://opensource.tencent.com/)
-[课程资源](#腾讯工蜂)
+[AWS云](https://awsacademy.instructure.com/)
+[华为云](https://www.huaweicloud.com/)
+[课程资源](#课前准备)

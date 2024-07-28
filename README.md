@@ -1,48 +1,12 @@
-# 腾讯工蜂
+# 课程资源
+- [学员信息](https://docs.qq.com/form/page/DYkRIZnVudnd5UWZ5) 请先完成[华为云](#华为云)的注册、实名认证、开发者协议后填写。
 
-![logo](TGit.png)
+# AWS云
+- [在线课堂](https://awsacademy.instructure.com/)
 
-- [腾讯工蜂](https://code.tencent.com/) 是基于Git的企业级协作开发解决方案，实现敏捷研发和持续交付。
-
-## 使用文档
-- [课程文档](https://docs.qq.com/slide/DYnBjamNESVpreWp6)
-- [在线文档](https://code.tencent.com/help)
-
-# 腾讯开源
-- [腾讯开源官网](https://opensource.tencent.com/)
-- [腾讯犀牛鸟开源人才培养计划](https://opensource.tencent.com/summer-of-code)
-
-## Apache InLong
-
-![logo](Apache_InLong.png)
-- [Apache InLong（应龙）](https://inlong.apache.org/) 是一个一站式海量数据集成框架，提供自动、安全、可靠和高性能的数据传输能力，同时支持批和流，方便业务构建基于流式的数据分析、建模和应用。
-
-### 安装与配置
-- [在 Ubuntu 环境下安装 InLong ](https://t.nkugame.com/#/InLong_ubuntu)
-- [在 Windows 环境下安装 InLong ](https://t.nkugame.com/#/InLong_windows)
-
-### 应用案例展示
-- **案例1：把csv文件内容采集到消息队列（pulsar）中**
-    - 在线演示：[演示地址](http://43.138.53.164) （登陆用户名 admin，密码 inlong）
-    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case1)
-
-- **案例2：把csv文件内容采集到数据库（mysql）中**
-    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case2)
-
-- **案例3：创建文件到 ClickHouse 数据流**
-    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case3)
-
-- **案例4：创建 MySQL -> Kafka -> ClickHouse 数据链路**
-    - 安装与配置：[查看手册](https://t.nkugame.com/#/InLong_Case4)
-
-
-## Angel
-
-![logo](angel_logo.png) 
-- [Angel](https://github.com/Angel-ML/angel) 是一个基于参数服务器（Parameter Server）理念开发的高性能分布式机器学习和图计算平台，它基于腾讯内部的海量数据进行了反复的调优，并具有广泛的适用性和稳定性，模型维度越高，优势越明显。
-
-### 安装与配置
-- [安装与配置步骤](https://t.nkugame.com/#/Angel_Install)
-
-### 应用案例展示
-- [2023 毕业设计案例展示](http://8.130.113.37:8080/)
+# 华为云
+- [官网](https://www.huaweicloud.com/)
+- [课程注册](https://developer.huaweicloud.com/signup/a555bf4e099646c2aaea30cf5dea3cfb)
+- [实名认证](https://account.huaweicloud.com/usercenter/?locale=zh-cn®ion=ap-southeast-1#/accountindex/realNameAuth)
+- [开发者协议](https://bbs.huaweicloud.com/community/myhomepage)
+- [查看租户ID（账号ID）](https://console.huaweicloud.com/iam/?agencyId=0bc8d306f880f2c21f28c01b3710deb1&region=cn-north-1&locale=zh-cn#/mine/apiCredential)
