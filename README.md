@@ -4,6 +4,9 @@
 
 # AWS云计算
 - [AWS Academy](https://awsacademy.instructure.com/)
+- 作业1 （7月29日，星期一）
+    - 学习 “模块 1：云概念概览” 的 “学生指南 [Student Guide]”，通过 “模块 1 知识检查”；
+    - 学习 “模块 2：云经济学和账单” 的 “学生指南 [Student Guide]”，通过 “模块 2 知识检查”；
 
 # 华为云计算
 - [华为云官网](https://www.huaweicloud.com/)
