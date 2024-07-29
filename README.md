@@ -4,7 +4,10 @@
 
 # AWS云计算
 - [AWS Academy](https://awsacademy.instructure.com/)
-- 作业1 （7月29日，星期一）
+
+## 第1天（7月29日，星期一）
+- （课堂）模块4：实验 1 - AWS IAM 简介 [Lab 1 - AWS IAM]
+- （课后）作业1
     - 学习 “模块 1：云概念概览” 的 “学生指南 [Student Guide]”，通过 “模块 1 知识检查”；
     - 学习 “模块 2：云经济学和账单” 的 “学生指南 [Student Guide]”，通过 “模块 2 知识检查”；
 
