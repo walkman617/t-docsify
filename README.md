@@ -35,5 +35,12 @@
 - 课堂实践
     - 华为云实验：[01鲲鹏云上应用高可用部署](https://docs.qq.com/doc/DYnRPcFZDQU92VWlV)，完成后请提交[OA系统主界面截图](https://docs.qq.com/form/page/DYktqQWt3UHZWR2ZW)
 - 课后作业
-    - 学习 “模块9：云架构” 的 “学生指南[Student Guide]”，通过 “模块6 知识检查”
-    - 学习 “模块10：自动扩展和监控” 的 “学生指南[Student Guide]”，通过 “模块7 知识检查”
+    - 学习 “模块9：云架构” 的 “学生指南[Student Guide]”，通过 “模块9 知识检查”
+    - 学习 “模块10：自动扩展和监控” 的 “学生指南[Student Guide]”，通过 “模块10 知识检查”
+    
+
+## 第5天（8月2日，星期五）
+- 课堂实践
+    - 模块10：实验6 - 对架构进行扩展和负载均衡 [Lab 6 ]Scaling and Load Balancing
+    - 完成 “课程评估”
+
