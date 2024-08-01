@@ -33,7 +33,7 @@
 
 ## 第4天（8月1日，星期四）
 - 课堂实践
-    - 华为云实验：[01鲲鹏云上应用高可用部署](https://docs.qq.com/doc/DYnRPcFZDQU92VWlV)
+    - 华为云实验：[01鲲鹏云上应用高可用部署](https://docs.qq.com/doc/DYnRPcFZDQU92VWlV)，完成后请提交[OA系统主界面截图](https://docs.qq.com/form/page/DYktqQWt3UHZWR2ZW)
 - 课后作业
     - 学习 “模块9：云架构” 的 “学生指南[Student Guide]”，通过 “模块6 知识检查”
     - 学习 “模块10：自动扩展和监控” 的 “学生指南[Student Guide]”，通过 “模块7 知识检查”
