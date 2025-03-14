@@ -8,11 +8,11 @@
 
 
 # 课程作业
-## AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年3月21日前）
-- 作业
+**第一次作业：**[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年3月21日前）
+- 知识检查
     - 学习 “模块1：云概念概览” 的 “学生指南[Student Guide]”，通过 “模块1 知识检查”
     - 学习 “模块2：云经济学和账单” 的 “学生指南[Student Guide]”，通过 “模块2 知识检查”
     - 学习 “模块3：AWS 全球基础设施概览” 的 “学生指南[Student Guide]”，通过 “模块3 知识检查”
     - 学习 “模块4：云安全性” 的 “学生指南[Student Guide]”，通过 “模块4 知识检查”
-- 实践
+- 动手实验
     - 模块4：实验1 - AWS IAM 简介 [Lab 1 - AWS IAM]
