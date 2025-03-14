@@ -3,9 +3,16 @@
 - 填写 [学员信息](https://docs.qq.com/form/page/DYnhETW1BQkxIaHB3)表中的内容，包括学号、姓名、邮箱和 [华为云账号](https://console.huaweicloud.com/iam/?agencyId=0bc8d306f880f2c21f28c01b3710deb1&region=cn-north-1&locale=zh-cn#/mine/apiCredential) 的相关信息。
 
 # 课程资源
-- AWS：[Cloud Foundations](https://awsacademy.instructure.com//courses/112657)
+- AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)
 - 华为：[云计算](https://docs.qq.com/s/9wKW7lgo1zGyKDE7zSvP_W) 
 
 
 # 课程作业
-## TBD
+## AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年3月21日前）
+- 作业
+    - 学习 “模块1：云概念概览” 的 “学生指南[Student Guide]”，通过 “模块1 知识检查”
+    - 学习 “模块2：云经济学和账单” 的 “学生指南[Student Guide]”，通过 “模块2 知识检查”
+    - 学习 “模块3：AWS 全球基础设施概览” 的 “学生指南[Student Guide]”，通过 “模块3 知识检查”
+    - 学习 “模块4：云安全性” 的 “学生指南[Student Guide]”，通过 “模块4 知识检查”
+- 实践
+    - 模块4：实验1 - AWS IAM 简介 [Lab 1 - AWS IAM]
