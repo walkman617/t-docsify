@@ -6,9 +6,8 @@
 - AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)
 - 华为：[云计算](https://docs.qq.com/s/9wKW7lgo1zGyKDE7zSvP_W) 
 
-
 # 课程作业
-**第一次作业：**[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年3月21日前）
+**第1次作业：**[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年3月21日前）
 - 知识检查
     - 学习 “模块1：云概念概览” 的 “学生指南[Student Guide]”，通过 “模块1 知识检查”
     - 学习 “模块2：云经济学和账单” 的 “学生指南[Student Guide]”，通过 “模块2 知识检查”
