@@ -10,4 +10,3 @@
 
 [AWS云](https://awsacademy.instructure.com/)
 [华为云](https://www.huaweicloud.com/)
-[课程资源](#课程资源)
