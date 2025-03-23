@@ -15,3 +15,12 @@
     - 学习 “模块4：云安全性” 的 “学生指南[Student Guide]”，通过 “模块4 知识检查”
 - 动手实验
     - 模块4：实验1 - AWS IAM 简介 [Lab 1 - AWS IAM]
+
+
+**第2次作业：**[Cloud Foundations](https://awsacademy.instructure.com/courses/112657)（2025年4月1日前）
+- 知识检测
+    - 学习 “模块5：联网和内容分发” 的 “学生指南[Student Guide]”，通过 “模块5 知识检查”
+    - 学习 “模块6：计算” 的 “学生指南[Student Guide]”，通过 “模块6 知识检查”
+- 动手实验
+    - 模块5：实验2 - 构建 VPC 并启动 Web 服务器 [Lab 2]
+    - 模块6：实验3 - Amazon EC2 简介 [Lab 3 - Amazon EC2]
