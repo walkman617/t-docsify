@@ -39,4 +39,4 @@
     - 请勿直接拷贝实验手册中的内容
     - 记录自己实践中的关键步骤与个人理解，撰写实验报告
     - 完成实践报告之后，记得**删除或释放云资源**，避免持续扣费
-- 3. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmV0RFBOa1JGR2J3)
+- 2. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmV0RFBOa1JGR2J3)
