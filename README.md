@@ -26,10 +26,17 @@
     - 模块6：实验3 - Amazon EC2 简介 [Lab 3 - Amazon EC2]
 
 
-**第3次作业：** 华为云 [01云上应用高可用部署](https://docs.qq.com/doc/DYnFMUVJxQmNXUGVk)（2025年5月9日前）
+**第3次作业：** 华为云 [01 云上应用高可用部署](https://docs.qq.com/doc/DYnFMUVJxQmNXUGVk)（2025年5月9日前）
 - 1. 按照 [学生侧指南](https://docs.qq.com/pdf/DYnNXUnVKTFpRaU5r?) 中的流程，点击 [费用中心](https://account.huaweicloud.com/usercenter/?agencyId=7938be6fd2bb4312b1199b4fc754563a&region=cn-north-4&locale=zh-cn#/userindex/allview) 查看代金券到账情况，在控制台购买华为云服务时抵扣使用。 
 - 2. 根据实验手册 [01云上应用高可用部署](https://docs.qq.com/doc/DYnFMUVJxQmNXUGVk) 完成课程实践，按照[格式要求](https://docs.qq.com/doc/DYnpza1ZBUXFkQndS) 撰写实践报告
     - 请勿直接拷贝实验手册中的内容
     - 记录自己实践中的关键步骤与个人理解，撰写实验报告
     - 完成实践报告之后，记得**删除或释放云资源**，避免持续扣费
 - 3. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmZpeE1qZUh4c2dq)
+
+**第4次作业：** 华为云 [02 云容器实验](https://docs.qq.com/doc/DYmR4WFFPSWt1ckZZ)（2025年5月31日前）
+- 1. 根据实验手册 [02 云容器实验](https://docs.qq.com/doc/DYmR4WFFPSWt1ckZZ) 完成课程实践，按照[格式要求](https://docs.qq.com/doc/DYnpza1ZBUXFkQndS) 撰写实践报告
+    - 请勿直接拷贝实验手册中的内容
+    - 记录自己实践中的关键步骤与个人理解，撰写实验报告
+    - 完成实践报告之后，记得**删除或释放云资源**，避免持续扣费
+- 3. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmV0RFBOa1JGR2J3)
