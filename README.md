@@ -40,3 +40,10 @@
     - 记录自己实践中的关键步骤与个人理解，撰写实验报告
     - 完成实践报告之后，记得**删除或释放云资源**，避免持续扣费
 - 2. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmV0RFBOa1JGR2J3)
+
+**第5次作业：** 华为云 [03 云上大数据实验](https://docs.qq.com/doc/DYnZGWFJVVmppR0Zi)（2025年6月15日前）
+- 1. 根据实验手册 [03 云上大数据实验](https://docs.qq.com/doc/DYnZGWFJVVmppR0Zi) 完成课程实践，按照[格式要求](https://docs.qq.com/doc/DYnpza1ZBUXFkQndS) 撰写实践报告
+    - 请勿直接拷贝实验手册中的内容
+    - 记录自己实践中的关键步骤与个人理解，撰写实验报告
+    - 完成实践报告之后，记得**删除或释放云资源**，避免持续扣费
+- 2. 提交实践报告：[在线提交](https://docs.qq.com/form/page/DYmFzS2tGdnpZU2Ra)
