@@ -8,6 +8,6 @@
 > 2025年春季学期
 
 
-[AWS云](https://awsacademy.instructure.com/)
-[华为云](https://www.huaweicloud.com/)
+[课前准备](#课前准备)
 [课程资源](#课程资源)
+[课程作业](#课程资源)
