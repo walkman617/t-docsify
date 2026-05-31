@@ -4,7 +4,7 @@
 # 课程资源
 - AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/164373)
 
-# 课程任务
+# 课程作业
 
 **第1次作业：** 2026年3月30日前
 - 学习 “模块1：云概念概览” ，通过 “模块1 知识检查”
@@ -46,3 +46,7 @@
 - 知识检测
     - 学习 “模块9：云架构”，通过 “模块9 知识检查”
 
+# 课程报告
+- 报告要求：[基于腾讯云CloudBase的原型系统设计与实现](https://docs.qq.com/doc/DYmFhQ2ZwZXBnTEZw)
+- 提交日期：2026年6月30日前
+- 上传报告：[链接](https://docs.qq.com/form/page/DYk12aXJYZ0J6a3Vn)
