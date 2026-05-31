@@ -12,14 +12,6 @@
 
 
 
-**第5次作业：** 2025年6月15日前
-- 知识检测
-    - 学习 “模块8：数据库”，通过 “模块8 知识检查”
-- 动手实验
-    - 模块8：实验5 - 构建数据库服务器并使用应用程序与数据库交互 [Lab 5 - Build a DB Server]
-
-
-
 ## 课程报告（华为云）
 **第1次报告：** 华为云 [01 云上应用高可用部署](https://docs.qq.com/doc/DYnFMUVJxQmNXUGVk)（2025年5月9日前）
 - 1. 按照 [学生侧指南](https://docs.qq.com/pdf/DYnNXUnVKTFpRaU5r?) 中的流程，点击 [费用中心](https://account.huaweicloud.com/usercenter/?agencyId=7938be6fd2bb4312b1199b4fc754563a&region=cn-north-4&locale=zh-cn#/userindex/allview) 查看代金券到账情况，在控制台购买华为云服务时抵扣使用。 
