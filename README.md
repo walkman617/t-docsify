@@ -4,15 +4,8 @@
 # Materials
 - AWS：[Cloud Foundations](https://awsacademy.instructure.com//courses/189918)
 
-# Coursework
+# AssignmentS
 
-**Introduction** 
-- assignment：Pre-Course Survey
-
-
-**Module 1**: Cloud Concepts Overview
-- assignment：Knowledge Check
-
-
-**Module 2**: Cloud Economics and Billing 
-- assignment：Knowledge Check
+**Knowledge CheckS** 
+- Module 1: [Cloud Concepts Overview](https://awsacademy.instructure.com/courses/189918/assignments/2307678)
+- Module 2: [Cloud Economics and Billing](https://awsacademy.instructure.com/courses/189918/assignments/2307689)
