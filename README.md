@@ -1,62 +1,18 @@
-# 课前准备
-- 填写 [选课信息表](https://docs.qq.com/form/page/DYkR2ckhUakRQVnNm)，包括学号、姓名和邮箱。
+# Preparation
+- Fill in: [Personal Information](https://docs.qq.com/form/page/DYm9PSnJDV01Jam5T)
 
-# 课程资源
-- AWS：[Cloud Foundations](https://awsacademy.instructure.com/courses/164373)
+# Materials
+- AWS：[Cloud Foundations](https://awsacademy.instructure.com//courses/189918)
 
-# 课程作业
+# Coursework
 
-**第1次作业：** 2026年3月30日前
-- 学习 “模块1：云概念概览” ，通过 “模块1 知识检查”
-- 学习 “模块2：云经济学和账单” ，通过 “模块2 知识检查”
-
-**第2次作业：** 2026年4月20日前
-- 学习 “模块3：AWS 全球基础设施概览” ，通过 “模块3 知识检查”
-- 学习 “模块4：云安全性” ，通过 “模块4 知识检查”
-- 动手实验
-    - 模块4：实验1 - AWS IAM 简介 [Lab 1 - AWS IAM]
-
-**第3次作业：** 2026年4月27日前
-- 知识检测
-    - 学习 “模块5：联网和内容分发”，通过 “模块5 知识检查”
-- 动手实验
-    - 模块5：实验2 - 构建 VPC 并启动 Web 服务器 [Lab 2]
-
-**第4次作业：** 2026年5月11日前
-- 知识检测
-    - 学习 “模块6：计算”，通过 “模块6 知识检查”
-- 动手实验
-    - 模块6：实验3 - Amazon EC2 简介 [Lab 3 - Amazon EC2]
+**Introduction** 
+- Homework：Pre-Course Survey
 
 
-**第5次作业：** 2026年5月25日前
-- 知识检测
-    - 学习 “模块7：存储” ，通过 “模块7 知识检查”
-- 动手实验
-    - 模块7：实验4 - 使用 EBS [Lab 4 - EBS]
+**Module 1**: Cloud Concepts Overview
+- Homework：Knowledge Check
 
 
-**第6次作业：** 2026年6月8日前
-- 知识检测
-    - 学习 “模块8：数据库”，通过 “模块8 知识检查”
-- 动手实验
-    - 模块8：实验5 - 构建数据库服务器并使用应用程序与数据库交互 [Lab 5 - Build a DB Server]
-
-**第7次作业：** 2026年6月15日前
-- 知识检测
-    - 学习 “模块9：云架构”，通过 “模块9 知识检查”
-
-**第8次作业：** 2026年6月22日前
-- 知识检测
-    - 学习 “模块10：自动扩展和监控”，通过 “模块10 知识检查”
-- 动手实验
-    - 实验 6 - 对架构进行扩展和负载均衡 [Lab 6 - Scaling and Load Balancing]
-
-**第9次作业：** 2026年6月30日前
-- 课程评估
-    - 完成 “课程评估”，满分100 分，完成分数至少应达到 70.0。
-
-# 课程报告
-- 报告要求：[基于腾讯云CloudBase的原型系统设计与实现](https://docs.qq.com/doc/DYmFhQ2ZwZXBnTEZw)
-- 提交日期：2026年6月30日前
-- 上传报告：[链接](https://docs.qq.com/form/page/DYk12aXJYZ0J6a3Vn)
+**Module 2**: Cloud Economics and Billing 
+- Homework：Knowledge Check

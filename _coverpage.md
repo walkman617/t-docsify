@@ -1,14 +1,12 @@
 <!-- _coverpage.md -->
 
-# 《云计算》课程
+# Cloud Computing
 
 ![logo](cloud-computing.jpg)
 
-> 南开大学软件学院
-> 2026年春季学期
+> Fall 2026
 
 
-[课前准备](#课前准备)
-[课程资源](#课程资源)
-[课程作业](#课程作业)
-[课程报告](#课程报告)
+[Preparation](#Preparation)
+[Materials](#Materials)
+[Coursework](#Coursework)
