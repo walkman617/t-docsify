@@ -4,8 +4,8 @@
 # Materials
 - AWS：[Cloud Foundations](https://awsacademy.instructure.com//courses/189918)
 
-# AssignmentS
+# Assignments
 
-**Knowledge CheckS** 
+**Knowledge Checks** 
 - Module 1: [Cloud Concepts Overview](https://awsacademy.instructure.com/courses/189918/assignments/2307678)
 - Module 2: [Cloud Economics and Billing](https://awsacademy.instructure.com/courses/189918/assignments/2307689)
