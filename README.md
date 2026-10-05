@@ -7,12 +7,12 @@
 # Coursework
 
 **Introduction** 
-- Homework：Pre-Course Survey
+- assignment：Pre-Course Survey
 
 
 **Module 1**: Cloud Concepts Overview
-- Homework：Knowledge Check
+- assignment：Knowledge Check
 
 
 **Module 2**: Cloud Economics and Billing 
-- Homework：Knowledge Check
+- assignment：Knowledge Check
