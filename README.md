@@ -3,6 +3,7 @@
 
 # Materials
 - AWS：[Cloud Foundations](https://awsacademy.instructure.com//courses/189918)
+- Slides：[Cloud Foundations](https://docs.qq.com/s/yMkpfnwhqPi9x0eHsrX4Fa)
 
 # Assignments
 
